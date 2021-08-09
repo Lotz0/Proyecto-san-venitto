@@ -41,10 +41,11 @@
 /* Generic styles ----------------------------------------------*/
 body {
   font-family: "Quicksand", sans-serif;
+  margin-bottom: 400px;
 }
 
 header {
-  width: 100%;
+  width: auto;
   text-align: center;
   background-color: black;
 }
@@ -123,31 +124,42 @@ h2::before {
   width: 700px;
 }
 
-ol {
+ul {
   font-family: sans-serif;
   width: 700px;
   list-style: none;
+  width: auto;
+}
+
+p {
+  text-align: center;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h5 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.lista-productos {
+  text-align: center;
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.info {
+  border: solid white;
+  min-height: calc(100vh-200px-300px);
 }
 
 form {
   padding: 40px;
   margin-left: 30px;
-}
-
-footer {
-  background-color: black;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 35px;
-  text-align: center;
-  color: #CCC;
-}
-
-footer p {
-  padding: 10.5px;
-  margin: 0px;
-  line-height: 100%;
 }
 
 /*block*/
@@ -256,4 +268,30 @@ footer p {
 .container {
   background-color: white;
   color: blueviolet;
+}
+
+div.row {
+  margin-right: 0px;
+  margin: 0px !important;
+}
+
+div.container-fluid {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+div.container {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+@media (min-width: 700px) {
+  .leading {
+    display: flex;
+    align-items: center;
+  }
+}
+.logoFooter {
+  height: 80px;
+  width: 80px;
 }/*# sourceMappingURL=style.css.map */
