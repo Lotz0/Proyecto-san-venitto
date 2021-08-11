@@ -307,4 +307,9 @@ div.container {
   display: flex;
   width: 100%;
   justify-content: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
