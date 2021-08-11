@@ -89,6 +89,7 @@ header {
   }
 }
 h2 {
+  width: auto;
   position: relative;
   font-size: 2rem;
   font-family: sans-serif;
